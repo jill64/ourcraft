@@ -32,7 +32,7 @@
   <title>Ourcraft</title>
 </svelte:head>
 
-<header class="flex items-center mx-2 justify-between">
+<header class="flex items-center m-2 justify-between">
   <a href="/">
     <h1 class="font-bold text-4xl">Ourcraft</h1>
   </a>
