@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@aws-sdk/client-ec2':
-    specifier: ^3.525.1
+    specifier: 3.525.1
     version: 3.525.1
   '@jill64/eslint-config-svelte':
     specifier: 1.2.7
@@ -33,7 +33,7 @@ devDependencies:
     specifier: 5.0.0-next.70
     version: 5.0.0-next.70
   svelte-code-copy:
-    specifier: ^1.0.16
+    specifier: 1.0.16
     version: 1.0.16(@sveltejs/kit@2.5.2)(svelte@5.0.0-next.70)
   typescript:
     specifier: 5.3.3
