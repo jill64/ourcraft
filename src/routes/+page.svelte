@@ -49,7 +49,7 @@
           {state === 'running' ? 'text-green-500' : ''}
           {state === 'stopped' ? 'text-zinc-500' : ''}"
         >
-          {state ? state : 'Unavailable'}
+          {state ? `${state[0].toUpperCase()}${state.slice(1)}` : 'Unavailable'}
         </p>
       </section>
     </article>
