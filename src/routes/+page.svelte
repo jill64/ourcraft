@@ -102,7 +102,11 @@
     <pre
       bind:this={output}
       class="border my-4 h-[50vh] rounded p-2 border-zinc-500 overflow-auto"><code
-        >{atob(data.output ?? '')}</code
+        >{#await data.output}Loading...{:then log}{log}{:catch err}Error {JSON.stringify(
+            err,
+            null,
+            2
+          )}{/await}</code
       ></pre>
   </output>
 </main>
