@@ -11,7 +11,7 @@ crontab -e
 ```
 
 ```sh
-@reboot java -Xmx8G -Xms8G -jar /home/ec2-user/server.jar nogui
+@reboot sudo java -Xmx8G -Xms8G -jar /home/ec2-user/server.jar nogui
 ```
 
 Quit vi with `:wq`
