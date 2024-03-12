@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@aws-sdk/client-ec2':
-    specifier: 3.529.1
-    version: 3.529.1
+    specifier: 3.532.0
+    version: 3.532.0
   '@jill64/eslint-config-svelte':
     specifier: 1.2.8
     version: 1.2.8(svelte@5.0.0-next.75)(typescript@5.4.2)
@@ -111,8 +111,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@aws-sdk/client-ec2@3.529.1:
-    resolution: {integrity: sha512-H3D0c9PXAdrzU6XeabMwBgGu2Z2mvq3yFzRnBkUvGBwvbdv5SHFESt4wBwo9sPAINLGG81X5M5BLtlLAhKsu3A==}
+  /@aws-sdk/client-ec2@3.532.0:
+    resolution: {integrity: sha512-6oa0LFWoIUlrciNWuD4LKIlhdIWJL26iLqqcUKyO+MRoGaCdJrNNc/ua2bWXxsAtGipOvnKCchyI7dSed8D/Ig==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
