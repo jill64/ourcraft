@@ -15,8 +15,8 @@ devDependencies:
     specifier: 1.0.0
     version: 1.0.0
   '@jill64/svelte-suite':
-    specifier: 1.2.51
-    version: 1.2.51(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82)
+    specifier: 1.2.52
+    version: 1.2.52(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82)
   '@jill64/svelte-tailwind':
     specifier: 1.2.14
     version: 1.2.14
@@ -1459,8 +1459,8 @@ packages:
       svelte: 5.0.0-next.82
     dev: true
 
-  /@jill64/svelte-suite@1.2.51(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82):
-    resolution: {integrity: sha512-lTp+AZYSqav773uPcfuZWB3GMW1MJaZlPrRPhCfg/suJjre8dnmboQfNddn0mCoO4B4QPJ4D4vQdGWJKKE4HLg==}
+  /@jill64/svelte-suite@1.2.52(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82):
+    resolution: {integrity: sha512-yKIcuo7si7NpzehRuM2LmQ/+lJQmcfAyK7eMLiRX5pVPyPa+dEVfe4koV4OFe5P/3YxAAPH6/1yxPBamabd7+g==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -1471,7 +1471,7 @@ packages:
       '@jill64/svelte-menu': 1.0.15(svelte@5.0.0-next.82)
       '@jill64/svelte-ogp': 1.1.16(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82)
       '@jill64/svelte-storage': 1.1.14(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82)
-      '@jill64/svelte-toast': 1.3.24(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82)
+      '@jill64/svelte-toast': 1.3.25(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82)
       '@sveltejs/kit': 2.5.4(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@5.0.0-next.82)(vite@5.2.3)
       svelte: 5.0.0-next.82
       svelte-feather-icons: 4.1.0
@@ -1494,15 +1494,15 @@ packages:
       - ts-node
     dev: true
 
-  /@jill64/svelte-toast@1.3.24(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82):
-    resolution: {integrity: sha512-VhTzGHYRslbQz6OWBcWEVR+rJ0mH678kruKK57FWPiQNDPhq5twY6QUCeTBqLS5MVfrufGpUOqk3OKxNU31zeg==}
+  /@jill64/svelte-toast@1.3.25(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82):
+    resolution: {integrity: sha512-1ON1o71s3FlbCdomT5101gqehyKw7TK7x6N+78+k5O8njTkCW+Dh3hVePqoJSLkalnXUWLSxb7PaBKadZV4Fbg==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
       '@jill64/svelte-device-theme': 1.2.15(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82)
       svelte: 5.0.0-next.82
       svelte-french-toast: 1.2.0(svelte@5.0.0-next.82)
-      svelte-mq-store: 2.2.9(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82)
+      svelte-mq-store: 2.2.10(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82)
     transitivePeerDependencies:
       - '@sveltejs/kit'
     dev: true
@@ -4105,6 +4105,16 @@ packages:
 
   /svelte-loading-spinners@0.3.4:
     resolution: {integrity: sha512-vKaW71QMCBcTNijAGc0mUl8k3DQ66iYmp6MB8BMGCXyWk82bTrcLy8FOnSm9fE+8q6TwzD6PLUoYFHt0II93Xw==}
+    dev: true
+
+  /svelte-mq-store@2.2.10(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82):
+    resolution: {integrity: sha512-UvOLeXpiDrNS8xPEGMtR4Ji46HfIrwA/QHswucEeuag1/7KDAV1KSXT+o6jbKi9PRltwQK4p2AZvhdZpAABkDQ==}
+    peerDependencies:
+      '@sveltejs/kit': ^2.0.0
+      svelte: ^4.0.0
+    dependencies:
+      '@sveltejs/kit': 2.5.4(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@5.0.0-next.82)(vite@5.2.3)
+      svelte: 5.0.0-next.82
     dev: true
 
   /svelte-mq-store@2.2.9(@sveltejs/kit@2.5.4)(svelte@5.0.0-next.82):
