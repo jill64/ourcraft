@@ -33,8 +33,8 @@ devDependencies:
     specifier: 5.0.0-next.87
     version: 5.0.0-next.87
   svelte-code-copy:
-    specifier: 1.0.18
-    version: 1.0.18(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.87)
+    specifier: 1.0.19
+    version: 1.0.19(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.87)
   typescript:
     specifier: 5.4.3
     version: 5.4.3
@@ -4035,15 +4035,15 @@ packages:
       ts-serde: 1.0.3
     dev: true
 
-  /svelte-code-copy@1.0.18(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.87):
-    resolution: {integrity: sha512-OEkvVuE/jl3lJal5Q8+PxrtKus1UY8YxaXjikni9BMXpyhNu56H6UtzMl77BYZU2LNw4x62Avd7uVLutHA4ukw==}
+  /svelte-code-copy@1.0.19(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.87):
+    resolution: {integrity: sha512-8WL/QmtEYtn34V+/SXK6Z1YGoVcjyNMmUrrddQFV2zf5LYy0i1WcqUny4/f6xR+Yt2DWG9j2YytAfdV3JdQgww==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
       '@jill64/async-observer': 1.2.3
       svelte: 5.0.0-next.87
       svelte-feather-icons: 4.1.0
-      svelte-hydrated: 1.0.11(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.87)
+      svelte-hydrated: 1.0.12(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.87)
     transitivePeerDependencies:
       - '@sveltejs/kit'
     dev: true
@@ -4089,8 +4089,8 @@ packages:
       svelte: 5.0.0-next.87
     dev: true
 
-  /svelte-hydrated@1.0.11(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.87):
-    resolution: {integrity: sha512-jT3WZ77wUzBP/emO2HyEzkJeR4mWPfF5HdF7nQuk02xoKWrMeW+L8J9H0SgmIsbhZE2lK8mc3MoIClHwqOyYuA==}
+  /svelte-hydrated@1.0.12(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.87):
+    resolution: {integrity: sha512-8ZGGOhsR5R3Ni46j6rrFfn4IN7DxGYboYdNbFc5NYqptLT8Jmirn8QmbalzG0xpeidAvJRRlpI7j+kFPrzVQbg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
