@@ -15,8 +15,8 @@ devDependencies:
     specifier: 1.0.0
     version: 1.0.0
   '@jill64/svelte-suite':
-    specifier: 1.2.79
-    version: 1.2.79(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93)
+    specifier: 1.2.80
+    version: 1.2.80(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93)
   '@jill64/svelte-tailwind':
     specifier: 1.2.18
     version: 1.2.18
@@ -1418,15 +1418,15 @@ packages:
       svelte-baked-cookie: 1.0.18(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93)
     dev: true
 
-  /@jill64/svelte-input@1.6.22(svelte@5.0.0-next.93):
-    resolution: {integrity: sha512-g/wntlcOimdvO96VW93hvlfwpSKvJMycewhwJGVF7iBzXd7f059Kfo84gEGzAfabZd/NGZ3tViVJY+sj4+CPiQ==}
+  /@jill64/svelte-input@1.6.23(svelte@5.0.0-next.93):
+    resolution: {integrity: sha512-XjjxUxj1HHN6Dp63Botvr8qzq+UdRfX320/KKrVZ6Z2j1u7VFvDpY22Pvt5OMo6BWQD49kUro9h6BdzFrLtD7w==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
       '@jill64/async-observer': 1.2.3
       bignumber.js: 9.1.2
       svelte: 5.0.0-next.93
-      svelte-loading-spinners: 0.3.4
+      svelte-loading-spinners: 0.3.6
     dev: true
 
   /@jill64/svelte-menu@1.0.17(svelte@5.0.0-next.93):
@@ -1459,15 +1459,15 @@ packages:
       svelte: 5.0.0-next.93
     dev: true
 
-  /@jill64/svelte-suite@1.2.79(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93):
-    resolution: {integrity: sha512-mKB6EDUN15fmBazgAIuXp4Mqk/jZSwJJN+2+nicPvVpDe+QOKlxEvxIS21ekZHqOwWZiY+teoCkRDCvuBaw6mw==}
+  /@jill64/svelte-suite@1.2.80(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93):
+    resolution: {integrity: sha512-eT7HoKiAxu2uo3bNdypIxbm3VxWYvXNE+LYT/Meip92mmYKS1k5w2o08YqfIAdhji2sT6W1YDtNWtlkcIC534Q==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
     dependencies:
       '@jill64/svelte-dark-theme': 2.3.53(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93)
       '@jill64/svelte-i18n': 1.1.16(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93)
-      '@jill64/svelte-input': 1.6.22(svelte@5.0.0-next.93)
+      '@jill64/svelte-input': 1.6.23(svelte@5.0.0-next.93)
       '@jill64/svelte-menu': 1.0.17(svelte@5.0.0-next.93)
       '@jill64/svelte-ogp': 1.1.18(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93)
       '@jill64/svelte-storage': 1.1.17(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93)
@@ -4103,8 +4103,8 @@ packages:
       svelte: 5.0.0-next.93
     dev: true
 
-  /svelte-loading-spinners@0.3.4:
-    resolution: {integrity: sha512-vKaW71QMCBcTNijAGc0mUl8k3DQ66iYmp6MB8BMGCXyWk82bTrcLy8FOnSm9fE+8q6TwzD6PLUoYFHt0II93Xw==}
+  /svelte-loading-spinners@0.3.6:
+    resolution: {integrity: sha512-mthHQ2TwiwzTWzbFry3CBnVEfzqPOD9WkVw84OfSYzHRq6N9wgQ+yv37u81uPeuLU/ZOIPqhujpXquB1aol5ZQ==}
     dev: true
 
   /svelte-mq-store@2.2.11(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.93):
