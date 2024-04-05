@@ -15,8 +15,8 @@ devDependencies:
     specifier: 1.0.0
     version: 1.0.0
   '@jill64/svelte-suite':
-    specifier: 1.2.82
-    version: 1.2.82(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94)
+    specifier: 1.2.83
+    version: 1.2.83(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94)
   '@jill64/svelte-tailwind':
     specifier: 1.2.20
     version: 1.2.20
@@ -1437,8 +1437,8 @@ packages:
       svelte: 5.0.0-next.94
     dev: true
 
-  /@jill64/svelte-ogp@1.1.18(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94):
-    resolution: {integrity: sha512-DirIMO9bvY2sR2bavmJ3jiwGU8YAB2iWDd4dmg5FKf30z1ndT8s1LE1Z3BoOZrW/pvWs/085E7b6d39dR9ybJQ==}
+  /@jill64/svelte-ogp@1.1.19(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94):
+    resolution: {integrity: sha512-SoHGTYtjJR1YHxSzr1hTBSL/jzQmXG0WwTM5MQS5ASmH9ylothQPbs5zdw9ZQjGDtAJ0TQX27D93eHxt/TnlJA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -1459,8 +1459,8 @@ packages:
       svelte: 5.0.0-next.94
     dev: true
 
-  /@jill64/svelte-suite@1.2.82(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94):
-    resolution: {integrity: sha512-NETWH1jxynNy1WNXPdig4YIVfrqNaRuIKNAQ5tYHHh1z70+YP53EvB2VsT/rCriqhPWJ3yvLeH3b0KRlyXUkMQ==}
+  /@jill64/svelte-suite@1.2.83(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94):
+    resolution: {integrity: sha512-Fc3NL/RjDc5rw0Jg0fw2RfwqCB5lthg+eK9WJ9wwwhRxvu4igBQx6xbHpPAhpyWpsCuV+VIOvQ2SCHRXJGjnSA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -1469,7 +1469,7 @@ packages:
       '@jill64/svelte-i18n': 1.1.16(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94)
       '@jill64/svelte-input': 1.6.23(svelte@5.0.0-next.94)
       '@jill64/svelte-menu': 1.0.17(svelte@5.0.0-next.94)
-      '@jill64/svelte-ogp': 1.1.18(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94)
+      '@jill64/svelte-ogp': 1.1.19(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94)
       '@jill64/svelte-storage': 1.1.17(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94)
       '@jill64/svelte-toast': 1.3.28(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.94)
       '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@5.0.0-next.94)(vite@5.2.8)
