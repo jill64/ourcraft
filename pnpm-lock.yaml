@@ -33,8 +33,8 @@ devDependencies:
     specifier: 5.0.0-next.95
     version: 5.0.0-next.95
   svelte-code-copy:
-    specifier: 1.0.20
-    version: 1.0.20(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.95)
+    specifier: 1.0.21
+    version: 1.0.21(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.95)
   typescript:
     specifier: 5.4.4
     version: 5.4.4
@@ -1336,10 +1336,6 @@ packages:
       strip-ansi-cjs: /strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: /wrap-ansi@7.0.0
-    dev: true
-
-  /@jill64/async-observer@1.2.3:
-    resolution: {integrity: sha512-IK0NpUnVdxTlZLgc24DmwZk1UsDCz3g8ZvmQVRFBph7cr55wQgpnj8cIrF7rvdFc4u9TR7fGOw0KWhcCRCahJQ==}
     dev: true
 
   /@jill64/async-observer@1.2.4:
@@ -4076,12 +4072,12 @@ packages:
       ts-serde: 1.0.3
     dev: true
 
-  /svelte-code-copy@1.0.20(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.95):
-    resolution: {integrity: sha512-8hygyJc9ml0U4DuMxGmFEf/ngax75LPhp7hE273AgL/ICLpuGn261C43uwcdAGv9SKwzu9aCYbTyVaMURcX7sw==}
+  /svelte-code-copy@1.0.21(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.95):
+    resolution: {integrity: sha512-SikBqzd5BWkoIIgHFpP75QToOd6GtgQ7bG5N6NCsNwXMGkAPQtBb50Z4++zQ5CNRLp6b5aJmykTFElyQWlgSMg==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
-      '@jill64/async-observer': 1.2.3
+      '@jill64/async-observer': 1.2.4
       svelte: 5.0.0-next.95
       svelte-feather-icons: 4.1.0
       svelte-hydrated: 1.0.13(@sveltejs/kit@2.5.5)(svelte@5.0.0-next.95)
