@@ -21,7 +21,7 @@
     "@sveltejs/kit": "2.5.7",
     "@sveltejs/vite-plugin-svelte": "3.1.0",
     "svelte": "5.0.0-next.120",
-    "svelte-code-copy": "1.0.23",
+    "svelte-code-copy": "1.0.24",
     "typescript": "5.4.5",
     "vite": "5.2.10"
   }
