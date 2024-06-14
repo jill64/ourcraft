@@ -18,8 +18,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       '@jill64/svelte-suite':
-        specifier: 1.2.170
-        version: 1.2.170(@sveltejs/kit@2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)
+        specifier: 1.2.171
+        version: 1.2.171(@sveltejs/kit@2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)
       '@jill64/svelte-tailwind':
         specifier: 1.2.37
         version: 1.2.37(jiti@1.21.0)(yaml@2.4.2)
@@ -723,8 +723,8 @@ packages:
     peerDependencies:
       svelte: ^4.0.0
 
-  '@jill64/svelte-menu@1.0.22':
-    resolution: {integrity: sha512-XAd01eABu3p2alZS7ib/slk3eP8uljnOrksZZojjppKb3szx+zwZNNHO+UuCxssae7BVbmbATI7ZEiNPeM7EQg==}
+  '@jill64/svelte-menu@1.0.23':
+    resolution: {integrity: sha512-Wd2Y0KvkzEVRPkmxUa5ZEBW8P9oThXIuYRqBB8issjF+06lsB5cfU+DR7KS788myH4E31Aw4dUoEmfGZIL9a4w==}
     peerDependencies:
       svelte: ^4.0.0
 
@@ -746,8 +746,8 @@ packages:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
 
-  '@jill64/svelte-suite@1.2.170':
-    resolution: {integrity: sha512-GmfoRizc3tsFBDpVeGjzlXxAc/G3u9qYLCmZKfIvPhEt1ObJryodm8qVa4YV6XZ6k/bTyyuuy+jAz7sQptsAaw==}
+  '@jill64/svelte-suite@1.2.171':
+    resolution: {integrity: sha512-NcokcSRjfLEx1Qe5CZPQCv8140gYgMVKp5UqPWakEiexBmzcZfgo2Q/u2wR6mLK79rhRP1pGpsS/MS8dx2DGaw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -2419,10 +2419,10 @@ snapshots:
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sso-oidc': 3.596.0(@aws-sdk/client-sts@3.596.0)
-      '@aws-sdk/client-sts': 3.596.0
+      '@aws-sdk/client-sso-oidc': 3.596.0
+      '@aws-sdk/client-sts': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0)
       '@aws-sdk/core': 3.592.0
-      '@aws-sdk/credential-provider-node': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))(@aws-sdk/client-sts@3.596.0)
+      '@aws-sdk/credential-provider-node': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0)(@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0))
       '@aws-sdk/middleware-host-header': 3.577.0
       '@aws-sdk/middleware-logger': 3.577.0
       '@aws-sdk/middleware-recursion-detection': 3.577.0
@@ -2464,13 +2464,13 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0)':
+  '@aws-sdk/client-sso-oidc@3.596.0':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.596.0
+      '@aws-sdk/client-sts': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0)
       '@aws-sdk/core': 3.592.0
-      '@aws-sdk/credential-provider-node': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))(@aws-sdk/client-sts@3.596.0)
+      '@aws-sdk/credential-provider-node': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0)(@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0))
       '@aws-sdk/middleware-host-header': 3.577.0
       '@aws-sdk/middleware-logger': 3.577.0
       '@aws-sdk/middleware-recursion-detection': 3.577.0
@@ -2507,7 +2507,6 @@ snapshots:
       '@smithy/util-utf8': 3.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
-      - '@aws-sdk/client-sts'
       - aws-crt
 
   '@aws-sdk/client-sso@3.592.0':
@@ -2553,13 +2552,13 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-sts@3.596.0':
+  '@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0)':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sso-oidc': 3.596.0(@aws-sdk/client-sts@3.596.0)
+      '@aws-sdk/client-sso-oidc': 3.596.0
       '@aws-sdk/core': 3.592.0
-      '@aws-sdk/credential-provider-node': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))(@aws-sdk/client-sts@3.596.0)
+      '@aws-sdk/credential-provider-node': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0)(@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0))
       '@aws-sdk/middleware-host-header': 3.577.0
       '@aws-sdk/middleware-logger': 3.577.0
       '@aws-sdk/middleware-recursion-detection': 3.577.0
@@ -2596,6 +2595,7 @@ snapshots:
       '@smithy/util-utf8': 3.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
+      - '@aws-sdk/client-sso-oidc'
       - aws-crt
 
   '@aws-sdk/core@3.592.0':
@@ -2627,14 +2627,14 @@ snapshots:
       '@smithy/util-stream': 3.0.1
       tslib: 2.6.2
 
-  '@aws-sdk/credential-provider-ini@3.596.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))(@aws-sdk/client-sts@3.596.0)':
+  '@aws-sdk/credential-provider-ini@3.596.0(@aws-sdk/client-sso-oidc@3.596.0)(@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0))':
     dependencies:
-      '@aws-sdk/client-sts': 3.596.0
+      '@aws-sdk/client-sts': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0)
       '@aws-sdk/credential-provider-env': 3.587.0
       '@aws-sdk/credential-provider-http': 3.596.0
       '@aws-sdk/credential-provider-process': 3.587.0
-      '@aws-sdk/credential-provider-sso': 3.592.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))
-      '@aws-sdk/credential-provider-web-identity': 3.587.0(@aws-sdk/client-sts@3.596.0)
+      '@aws-sdk/credential-provider-sso': 3.592.0(@aws-sdk/client-sso-oidc@3.596.0)
+      '@aws-sdk/credential-provider-web-identity': 3.587.0(@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0))
       '@aws-sdk/types': 3.577.0
       '@smithy/credential-provider-imds': 3.1.0
       '@smithy/property-provider': 3.1.0
@@ -2645,14 +2645,14 @@ snapshots:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
 
-  '@aws-sdk/credential-provider-node@3.596.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))(@aws-sdk/client-sts@3.596.0)':
+  '@aws-sdk/credential-provider-node@3.596.0(@aws-sdk/client-sso-oidc@3.596.0)(@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0))':
     dependencies:
       '@aws-sdk/credential-provider-env': 3.587.0
       '@aws-sdk/credential-provider-http': 3.596.0
-      '@aws-sdk/credential-provider-ini': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))(@aws-sdk/client-sts@3.596.0)
+      '@aws-sdk/credential-provider-ini': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0)(@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0))
       '@aws-sdk/credential-provider-process': 3.587.0
-      '@aws-sdk/credential-provider-sso': 3.592.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))
-      '@aws-sdk/credential-provider-web-identity': 3.587.0(@aws-sdk/client-sts@3.596.0)
+      '@aws-sdk/credential-provider-sso': 3.592.0(@aws-sdk/client-sso-oidc@3.596.0)
+      '@aws-sdk/credential-provider-web-identity': 3.587.0(@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0))
       '@aws-sdk/types': 3.577.0
       '@smithy/credential-provider-imds': 3.1.0
       '@smithy/property-provider': 3.1.0
@@ -2672,10 +2672,10 @@ snapshots:
       '@smithy/types': 3.0.0
       tslib: 2.6.2
 
-  '@aws-sdk/credential-provider-sso@3.592.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))':
+  '@aws-sdk/credential-provider-sso@3.592.0(@aws-sdk/client-sso-oidc@3.596.0)':
     dependencies:
       '@aws-sdk/client-sso': 3.592.0
-      '@aws-sdk/token-providers': 3.587.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))
+      '@aws-sdk/token-providers': 3.587.0(@aws-sdk/client-sso-oidc@3.596.0)
       '@aws-sdk/types': 3.577.0
       '@smithy/property-provider': 3.1.0
       '@smithy/shared-ini-file-loader': 3.1.0
@@ -2685,9 +2685,9 @@ snapshots:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
 
-  '@aws-sdk/credential-provider-web-identity@3.587.0(@aws-sdk/client-sts@3.596.0)':
+  '@aws-sdk/credential-provider-web-identity@3.587.0(@aws-sdk/client-sts@3.596.0(@aws-sdk/client-sso-oidc@3.596.0))':
     dependencies:
-      '@aws-sdk/client-sts': 3.596.0
+      '@aws-sdk/client-sts': 3.596.0(@aws-sdk/client-sso-oidc@3.596.0)
       '@aws-sdk/types': 3.577.0
       '@smithy/property-provider': 3.1.0
       '@smithy/types': 3.0.0
@@ -2741,9 +2741,9 @@ snapshots:
       '@smithy/util-middleware': 3.0.0
       tslib: 2.6.2
 
-  '@aws-sdk/token-providers@3.587.0(@aws-sdk/client-sso-oidc@3.596.0(@aws-sdk/client-sts@3.596.0))':
+  '@aws-sdk/token-providers@3.587.0(@aws-sdk/client-sso-oidc@3.596.0)':
     dependencies:
-      '@aws-sdk/client-sso-oidc': 3.596.0(@aws-sdk/client-sts@3.596.0)
+      '@aws-sdk/client-sso-oidc': 3.596.0
       '@aws-sdk/types': 3.577.0
       '@smithy/property-provider': 3.1.0
       '@smithy/shared-ini-file-loader': 3.1.0
@@ -3136,7 +3136,7 @@ snapshots:
       svelte: 5.0.0-next.155
       svelte-loading-spinners: 0.3.6
 
-  '@jill64/svelte-menu@1.0.22(svelte@5.0.0-next.155)':
+  '@jill64/svelte-menu@1.0.23(svelte@5.0.0-next.155)':
     dependencies:
       svelte: 5.0.0-next.155
 
@@ -3158,12 +3158,12 @@ snapshots:
       '@sveltejs/kit': 2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27))
       svelte: 5.0.0-next.155
 
-  '@jill64/svelte-suite@1.2.170(@sveltejs/kit@2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)':
+  '@jill64/svelte-suite@1.2.171(@sveltejs/kit@2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)':
     dependencies:
       '@jill64/svelte-dark-theme': 2.3.78(@sveltejs/kit@2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)
       '@jill64/svelte-i18n': 1.1.37(@sveltejs/kit@2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)
       '@jill64/svelte-input': 1.6.30(svelte@5.0.0-next.155)
-      '@jill64/svelte-menu': 1.0.22(svelte@5.0.0-next.155)
+      '@jill64/svelte-menu': 1.0.23(svelte@5.0.0-next.155)
       '@jill64/svelte-ogp': 1.1.27(@sveltejs/kit@2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)
       '@jill64/svelte-storage': 1.1.23(@sveltejs/kit@2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)
       '@jill64/svelte-toast': 1.3.41(@sveltejs/kit@2.5.11(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.155)
