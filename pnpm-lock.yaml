@@ -24,8 +24,8 @@ importers:
         specifier: 1.2.38
         version: 1.2.38(jiti@1.21.0)(yaml@2.4.2)
       '@sveltejs/adapter-cloudflare':
-        specifier: 4.4.1
-        version: 4.4.1(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(wrangler@3.33.0(@cloudflare/workers-types@4.20240222.0))
+        specifier: 4.5.0
+        version: 4.5.0(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(wrangler@3.33.0(@cloudflare/workers-types@4.20240222.0))
       '@sveltejs/kit':
         specifier: 2.5.17
         version: 2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27))
@@ -1053,8 +1053,8 @@ packages:
     resolution: {integrity: sha512-wwnrVQdjQxvWGOAiLmqlEhENGCcDIN+XJ/+usPOgSZObAslrCXgKlkX7rNVwIWW2RhPguTKthvF+4AoO0Z6KpA==}
     engines: {node: '>=16.0.0'}
 
-  '@sveltejs/adapter-cloudflare@4.4.1':
-    resolution: {integrity: sha512-CICRNK+zZBF6bcsEA3h82mCohkLf1NcSp/ClcxgYt1yuiWTG4fQO10XE9nCOEU9Azob6JWMmRvVLjJAXCLKjeQ==}
+  '@sveltejs/adapter-cloudflare@4.5.0':
+    resolution: {integrity: sha512-Uf4Zyh7ldEsK+Ej1F4CQy51MHJDY34ilVMIcOkPbmTTx14l/0Bl3aitenhHnqCMgkczglk1MnP5pbPdksr5Img==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^3.28.4
@@ -3574,7 +3574,7 @@ snapshots:
       '@smithy/types': 3.1.0
       tslib: 2.6.2
 
-  '@sveltejs/adapter-cloudflare@4.4.1(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(wrangler@3.33.0(@cloudflare/workers-types@4.20240222.0))':
+  '@sveltejs/adapter-cloudflare@4.5.0(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(wrangler@3.33.0(@cloudflare/workers-types@4.20240222.0))':
     dependencies:
       '@cloudflare/workers-types': 4.20240222.0
       '@sveltejs/kit': 2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27)))(svelte@5.0.0-next.158)(vite@5.3.1(@types/node@20.11.27))
