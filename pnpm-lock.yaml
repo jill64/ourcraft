@@ -36,8 +36,8 @@ importers:
         specifier: 5.0.0-next.172
         version: 5.0.0-next.172
       svelte-code-copy:
-        specifier: 1.0.32
-        version: 1.0.32(@sveltejs/kit@2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.172)(vite@5.4.7(@types/node@20.11.27)))(svelte@5.0.0-next.172)(vite@5.4.7(@types/node@20.11.27)))(svelte@5.0.0-next.172)
+        specifier: 1.0.34
+        version: 1.0.34(@sveltejs/kit@2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.172)(vite@5.4.7(@types/node@20.11.27)))(svelte@5.0.0-next.172)(vite@5.4.7(@types/node@20.11.27)))(svelte@5.0.0-next.172)
       typescript:
         specifier: 5.6.2
         version: 5.6.2
@@ -1974,8 +1974,8 @@ packages:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
 
-  svelte-code-copy@1.0.32:
-    resolution: {integrity: sha512-H+3GSEqns58XuSj5gOp4SodC9NmFVVQUYeTLSc3K1BAMJ+v0FshzdST3Rugoney/8zUjaKgvTNRqc66CDXOPFQ==}
+  svelte-code-copy@1.0.34:
+    resolution: {integrity: sha512-pwOSnp86uwmgnsy6QzYGFzx6g5ltz7hqIhAeB3gw+CiESjEBmqoFFSCzt/FnSBOEX3mJaLpu7Pbj68h46F+pQw==}
     peerDependencies:
       svelte: ^4.0.0
 
@@ -4464,7 +4464,7 @@ snapshots:
       svelte: 5.0.0-next.172
       ts-serde: 1.0.6
 
-  svelte-code-copy@1.0.32(@sveltejs/kit@2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.172)(vite@5.4.7(@types/node@20.11.27)))(svelte@5.0.0-next.172)(vite@5.4.7(@types/node@20.11.27)))(svelte@5.0.0-next.172):
+  svelte-code-copy@1.0.34(@sveltejs/kit@2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0-next.172)(vite@5.4.7(@types/node@20.11.27)))(svelte@5.0.0-next.172)(vite@5.4.7(@types/node@20.11.27)))(svelte@5.0.0-next.172):
     dependencies:
       '@jill64/async-observer': 1.2.5
       svelte: 5.0.0-next.172
