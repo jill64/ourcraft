@@ -23,6 +23,6 @@
     "svelte": "5.0.0-next.172",
     "svelte-code-copy": "1.0.36",
     "typescript": "5.6.3",
-    "vite": "5.4.10"
+    "vite": "5.4.11"
   }
 }
